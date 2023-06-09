@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Pangolin", cursive;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.title {
+  margin: 50px 0;
+  text-align: center;
+}
+.directors {
+  margin: 50px 0;
+}
+.directors__list {
+  list-style-type: none;
+}
+.movies-link {
+  text-decoration: none;
+  color: rgb(250, 129, 7);
+}
